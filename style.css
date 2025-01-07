@@ -1,9 +1,9 @@
 .st-key-calculate button {
     background-color: green;
-    font: 700;
-    font-style: normal;
     width: 702px;
-    color: aliceblue;
+    color: #ffffff;
+    font-size: larger;
+    font-family: auto;
 }
 
 .metric-container {
@@ -73,7 +73,7 @@ div.stNumberInput > label {
     display: block; /* Ensures the label behaves like a block-level element */
     width: 100%; /* Ensures it spans the full width of its parent */
     margin-bottom: 0.5rem; /* Adds space between the label and the input field */
-    font-size: 1rem; /* Adjust font size if needed */
+    font-size: larger; /* Adjust font size if needed */
     font-weight: bold; /* Optional: Make the text bold */
     font-family: auto;
     color: brown;
@@ -84,7 +84,7 @@ div.stSelectbox > label {
     display: block; /* Ensures the label is treated as a block-level element */
     width: 100%; /* Spans the full width of the parent container */
     margin-bottom: 0.5rem; /* Optional: Adds spacing below the label */
-    font-size: 1rem; /* Adjust font size as needed */
+    font-size: larger; /* Adjust font size as needed */
     font-weight: bold; /* Optional: Makes the label text bold */
     font-family: auto;
     color: brown;
