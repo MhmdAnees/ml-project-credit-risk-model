@@ -1,0 +1,170 @@
+.st-key-calculate button {
+    background-color: green;
+    font: 700;
+    font-style: normal;
+    width: 702px;
+    color: aliceblue;
+}
+
+.metric-container {
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+    background-color: #e0e7ff;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    width: 33%;
+    border: 1px solid #ebe8e8; /* Subtle border for definition */
+    border-radius: 12px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Subtle shadow for depth */
+    background-color: #ffffff; /* Clean white background */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-bottom: 20px;
+    font-family: auto;
+}
+/* .metric_value {
+    font-size: 24px;
+    color: #16a34a;
+} */
+.metric-label {
+    font-size: 20px;
+    color: brown;
+}
+.metrics-row{
+    display: flex;
+    /* flex-wrap: wrap;  */
+    justify-content: space-around;
+    /* margin: 5%; */
+    margin-bottom: 5%;
+}
+.info {
+    background-color: #e0e7ff;
+    font-family: math;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}.title {
+        border: 1px solid #ebe8e8; /* Subtle border for definition */
+        border-radius: 12px; /* Slightly rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Subtle shadow for depth */
+        background-color: #ffffff; /* Clean white background */
+        padding: 16px; /* Add some inner spacing */
+        transition: transform 0.2s ease, box-shadow 0.2s ease; 
+        margin-bottom: 20px;
+        font-family: auto;
+        color: brown;
+    }
+    
+    .title:hover {
+        transform: translateY(-4px); /* Lift effect on hover */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.10); /* Enhanced shadow on hover */
+    }
+    
+/* Center-align all labels for number inputs */
+div.stNumberInput > label {
+    text-align: center;
+    display: block; /* Ensures the label behaves like a block-level element */
+    width: 100%; /* Ensures it spans the full width of its parent */
+    margin-bottom: 0.5rem; /* Adds space between the label and the input field */
+    font-size: 1rem; /* Adjust font size if needed */
+    font-weight: bold; /* Optional: Make the text bold */
+    font-family: auto;
+    color: brown;
+}
+/* Center-align labels for select boxes */
+div.stSelectbox > label {
+    text-align: center;
+    display: block; /* Ensures the label is treated as a block-level element */
+    width: 100%; /* Spans the full width of the parent container */
+    margin-bottom: 0.5rem; /* Optional: Adds spacing below the label */
+    font-size: 1rem; /* Adjust font size as needed */
+    font-weight: bold; /* Optional: Makes the label text bold */
+    font-family: auto;
+    color: brown;
+}
+.loan_style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: auto;
+    color: brown;
+}
+.green-font {
+    color: green;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.yellow-font {
+    color: yellow;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.red-font {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.red_container {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    width: 33%;
+    border: 1px solid #ebe8e8; /* Subtle border for definition */
+    border-radius: 12px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Subtle shadow for depth */
+    background-color: red; /* Clean white background */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-bottom: 20px;
+    font-family: auto;
+}
+.yellow_container {
+     font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    width: 33%;
+    border: 1px solid #ebe8e8; /* Subtle border for definition */
+    border-radius: 12px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Subtle shadow for depth */
+    background-color: yellow; /* Clean white background */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-bottom: 20px;
+    font-family: auto;
+}
+.green_container {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    width: 33%;
+    border: 1px solid #ebe8e8; /* Subtle border for definition */
+    border-radius: 12px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Subtle shadow for depth */
+    background-color: green; /* Clean white background */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-bottom: 20px;
+    font-family: auto;
+}
+.metric_label_rating{
+      font-size: 20px;
+      color: white;
+}
