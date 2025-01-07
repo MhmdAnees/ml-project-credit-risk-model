@@ -6,7 +6,7 @@ from sklearn.preprocessing import MinMaxScaler
 MODEL_PATH = "C:\Codebasics_ML\CreditCard_Classification_Project\Artifacts\model_data.joblib"
 
 # From this:
-MODEL_PATH = "C:\Codebasics_ML\CreditCard_Classification_Project\Artifacts\model_data.joblib"
+# MODEL_PATH = "C:\Codebasics_ML\CreditCard_Classification_Project\Artifacts\model_data.joblib"
 
 # To this:
 MODEL_PATH = "./model_data.joblib"  # assuming model file is in the same directory

@@ -9,7 +9,7 @@ def load_css(file_path):
 
 
 css_path = pathlib.Path(
-    "C:\Codebasics_ML\CreditCard_Classification_Project\Code\ml-project-credit-risk-model\style.css")
+    "./style.css")
 load_css(css_path)
 
 # Title
